@@ -6,10 +6,19 @@
 Welcome to test's documentation!
 ================================
 
-Ma questa credo possa essere una pagina qualsiasi scritta in `markdown`.
+Ma questa credo possa essere una pagina qualsiasi scritta in ``markdown``.
 
-Perché devo inserire la **table of content** qui se ho già il menuu a alato?
+Perché devo inserire la **table of content** qui se ho già il menu a lato?
 
+Comunque il *menu alato* non è male ;-)
+
+Va bene, scrivo qualcosa solo per ricompilare.
+
+
+.. image:: _static/logo.png
+    :width: 200px
+    :align: left
+    :alt: the nexo logo
 
 .. toctree::
    :maxdepth: 2

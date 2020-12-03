@@ -1,6 +1,6 @@
 # Uno
 
-Questo è il primo file `markdown`.
+Questo è il primo file ``markdown``.
 
 Ora modifico, lo faccio per verificare come tratta  blocchi di codice.
 
@@ -16,3 +16,7 @@ html_theme_options = {
 ~~~
 
 Ora sto modificando da iPad in una sessione mosh.
+
+.. |nexo logo|        image:: /_static/logo.png
+
+![nexo logo](/_static/logo.png)

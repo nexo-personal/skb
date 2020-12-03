@@ -6,6 +6,13 @@
 Welcome to test's documentation!
 ================================
 
+Ma questa credo possa essere una pagina qualsiasi scritta in `markdown`.
+
+Perché devo inserire la **table of content** qui se ho già il menu a lato?
+
+Comunque il *menu alato* non è male ;-)
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -13,9 +20,8 @@ Welcome to test's documentation!
    content/uno
    content/due
 
-Indices and tables
-==================
+..
+    Indices and tables
+    ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    * :ref:`search`
