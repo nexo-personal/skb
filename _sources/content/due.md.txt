@@ -1,0 +1,126 @@
+# Due
+
+Questo è il *secondo* file `markdown`.
+
+Ora modifico, rimodifico alle 12:47.
+
+
+## Header
+
+Va bene ci riprovo, così vedo se il comando rapido funziona.
+
+Soprattutto verifico che la generazione del PDF funzioni correttamente. Sto provando comn uno script di BBedit ma non riesco a farlo funzionare.
+
+
+## Header 2 la tipografia
+
+**Bold**
+
+*Italic*
+
+~~Strikethrough~~
+
+Devo capire come abilitare la preview.
+
+## Liste
+
+Va bene iniziamo con una lista non ordinata, ovvero senza numeri.
+
+- uno
+- due
+- tre
+- quattro
+
+
+Ora invece una lista ordinata, ovvero numerata.
+
+1. uno
+2. due
+3. tre
+4. quattro
+
+## Pandoc
+
+Ma che bello posso fare pa preview del file compilato con Pandoc, adesso devo capire come impostare il front matter per formattare il documento. Proviamo.
+Il comando dovrebbe essere `Pandoc! pdf`.
+
+Va bene,adesso come al solito perderò un sacco di tempo a cercare lo schema colori che mi piace di più.
+
+## Tabelle
+
+Questa dovrebbe essere una tabella.
+
+| uno | due | tre |
+|:---:|:----|----:|
+|centrato | sinistra | destra |
+
+Vediamo se viene generata correttamente.
+
+**Perfetta!**
+
+Veloce davvero. Ora ho modificato il visualizzatore di PDF, vediamo se quando compilo questa volta mi apre *Skim*.
+
+Alla prima non ha funzionato, riprovo. Sto cercando di capire come funzionano i template. Ci riprovo. nada, genera HTML.
+
+## Citazione
+Questa che segue dovrebbe essere una ctazione.
+> L'acqua che tocchi de' fiumi è l'ultima di quella che andò e la prima di quella che viene.
+
+Magari mi funziona l'evidenziato, che in *Pandoc* dovrebbe essere così: ::evidenziato::.
+
+No, direi che non funziona.
+
+Ora ho aperto con Macvim direttamente dal finder.
+
+Vediamo se riesco anche a generare il PDF.
+
+Non velocissimo direi. Riproviamo, sto provando da console anziché da MacVim.
+
+Sempre lento, forse meglio in questo caso compilare direttamente dalla shell. Intanto devo installare sia Pandoc che MacTex sul server.
+
+
+Era già tutto installato, ora devo solo compilare e poi siamo a posto.
+
+                          
+Funziona tutto egregiamente, ho tutto quello che mi serve. Questo è il mio workflow, tutto il resto è lavoro occasionale che posso fare tranquillamente con l'iMac dell'ufficio.
+
+                         
+Pertanto ora non ho più scuse, devo FARE.
+
+                        
+La cosa notevole di utilizzare Vim è la consistenza tra le varie piattaforme. Al netto della possibilità del terminale di visualizzare più di 256 colori (per esempio Blink su Ipad non lo consente) che non consente l'utilizzo di schemi colore pensati per più di 256 colori, tutto il resto è uguale. L'esperienza d'uso è identica e consistente.
+
+
+Ovviamente anche la UX è consistente, tutto da tastiera.
+
+
+Bene, dovrei avere sistemato i Plugin anche sul server, proviamo a compilare.
+
+
+Non ho idea di quanto serva per compilare il PDF con Pandoc, provo a faccio partire un cronometro.
+
+
+Intanto non blocca Vim e posso continuare a lavorare, però questa cosa ad anello aperto non mi piace per nulla.
+
+Allora, se compilo dal riga di comando è tutto più veloce, devo quindi fare una macro che compili il buffer attuale con `pandoc % -o %:r.pdf --pdf-engine=xelatex` così dovrebbe funzionare tutto.
+
+Ho modificato la macro, ora provo.
+
+Mi sa che è diventato un tantinello lento, ma si perde la configurazione della tastiera?
+
+Non mi pare in effetti che sia grossa differenza tra l'editing con Vim direttamente sul server e qui si TextTastic.
+
+Va bene devo modificare il front matter per ottenere la carta intestata di nexo.
+
+Non riesco a trovare uno schema colori che mi soddisfi quando scrivo in Markdown, forse dovrei scegliere uno schema semplice, monocromatico, che si abiliti automaticamente quando apro un file con estensione `md`.
+
+Lo cerco e lo provo.
+
+Ve bene, domani mi devo ricordare di sistemare il front matter in maniera definitiva.
+
+## TODO
+
+- [ ] Front matter di formattazione documento
+- [ ] Schema colori per terminale 256
+- [ ] Workflow Pandoc definitivo per documento semplici
+  

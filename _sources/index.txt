@@ -1,0 +1,25 @@
+.. test documentation master file, created by
+   sphinx-quickstart on Thu Dec  3 10:23:05 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to test's documentation!
+================================
+
+Ma questa credo possa essere una pagina qualsiasi scritta in `markdown`.
+
+Perché devo inserire la **table of content** qui se ho già il menuu a alato?
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   content/uno
+   content/due
+
+..
+    Indices and tables
+    ==================
+
+    * :ref:`search`

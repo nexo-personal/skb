@@ -1,0 +1,18 @@
+# Uno
+
+Questo è il primo file `markdown`.
+
+Ora modifico, lo faccio per verificare come tratta  blocchi di codice.
+
+Provo a inserirne uno.
+
+~~~
+html_theme_options = {
+    'logo': 'logo.png',
+    'github_user': 'bitprophet',
+    'github_repo': 'alabaster',
+}
+
+~~~
+
+Ora sto modificando da iPad in una sessione mosh.
