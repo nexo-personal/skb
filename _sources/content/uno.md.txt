@@ -15,7 +15,8 @@ html_theme_options = {
 
 ~~~
 
-Ora sto modificando da iPad in una sessione mosh.
+Ora sto modificando da iPad in una sessione mosh. Ora modifico nuovamente per provare la compilazione.
+
 
 .. |nexo logo|        image:: /_static/logo.png
 
