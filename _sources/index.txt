@@ -14,7 +14,9 @@ Comunque il *menu alato* non è male ;-)
 
 Va bene, scrivo qualcosa solo per ricompilare.
 
-Soprattutto non capisco se posso utilizzare un documento `markdown`come documento principale.
+Soprattutto non capisco se posso utilizzare un documento `markdown` come documento principale.
+
+Bene, ora sto utilizzando un file con estensione `qmd. Vediamo cosa succede.
 
 
 .. image:: _static/logo.png
