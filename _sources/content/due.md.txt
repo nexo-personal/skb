@@ -62,10 +62,6 @@ Non è vero, in `sphinx` l'allineamento all'interno delle tabelle markdown viene
 
 Proviamo con un'altra modalità di formattazione della tabella.
 
-uno             due         tre
----           -----        ------
-sinistra      destra       centrato
-
 
 Veloce davvero. Ora ho modificato il visualizzatore di PDF, vediamo se quando compilo questa volta mi apre *Skim*.
 
