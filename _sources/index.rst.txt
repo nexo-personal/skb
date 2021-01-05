@@ -6,13 +6,23 @@
 Welcome to test's documentation!
 ================================
 
-Ma questa credo possa essere una pagina qualsiasi scritta in `markdown`.
+Ma questa credo possa essere una pagina qualsiasi scritta in ``markdown``.
 
-Perché devo inserire la **table of content** qui se ho già il menu a lato?
+Perché devo inserire la **table of content** qui se ho già il menu alato?
 
 Comunque il *menu alato* non è male ;-)
 
 Va bene, scrivo qualcosa solo per ricompilare.
+
+Soprattutto non capisco se posso utilizzare un documento `markdown` come documento principale.
+
+Bene, ora sto utilizzando un file con estensione `md. Vediamo cosa succede.
+
+
+.. image:: _static/logo.png
+    :width: 200px
+    :align: center
+    :alt: the nexo logo
 
 .. toctree::
    :maxdepth: 2
