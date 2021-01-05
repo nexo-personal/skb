@@ -60,12 +60,19 @@ Vediamo se viene generata correttamente.
 
 Non è vero, in `sphinx` l'allineamento all'interno delle tabelle markdown viene totalmente ignorato.
 
+Proviamo con un'altra modalità di formattazione della tabella.
+
+uno             due         tre
+---           -----        ------
+sinistra      destra       centrato
+
+
 Veloce davvero. Ora ho modificato il visualizzatore di PDF, vediamo se quando compilo questa volta mi apre *Skim*.
 
 Alla prima non ha funzionato, riprovo. Sto cercando di capire come funzionano i template. Ci riprovo. nada, genera HTML.
 
 ## Citazione
-Questa che segue dovrebbe essere una ctazione.
+Questa che segue dovrebbe essere una citazione.
 > L'acqua che tocchi de' fiumi è l'ultima di quella che andò e la prima di quella che viene.
 
 Magari mi funziona l'evidenziato, che in *Pandoc* dovrebbe essere così: ::evidenziato::.
