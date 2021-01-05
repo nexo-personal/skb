@@ -17,7 +17,6 @@
     <link rel="canonical" href="https://nexogit.github.io/kb/index.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Uno" href="content/uno.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -46,17 +45,11 @@
 
 
 <h3>Navigation</h3>
-<p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="content/uno.html">Uno</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/due.html">Due</a></li>
-</ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="#">Documentation overview</a><ul>
-      <li>Next: <a href="content/uno.html" title="next chapter">Uno</a></li>
   </ul></li>
 </ul>
 </div>
@@ -88,29 +81,32 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="welcome-to-test-s-documentation">
+  <p>.. test documentation master file, created by
+sphinx-quickstart on Thu Dec  3 10:23:05 2020.
+You can adapt this file completely to your liking, but it should at least
+contain the root <code class="docutils literal notranslate"><span class="pre">toctree</span></code> directive.</p>
+<div class="section" id="welcome-to-test-s-documentation">
 <h1>Welcome to test’s documentation!<a class="headerlink" href="#welcome-to-test-s-documentation" title="Permalink to this headline">¶</a></h1>
 <p>Ma questa credo possa essere una pagina qualsiasi scritta in <code class="docutils literal notranslate"><span class="pre">markdown</span></code>.</p>
 <p>Perché devo inserire la <strong>table of content</strong> qui se ho già il menu alato?</p>
 <p>Comunque il <em>menu alato</em> non è male ;-)</p>
 <p>Va bene, scrivo qualcosa solo per ricompilare.</p>
-<p>Soprattutto non capisco se posso utilizzare un documento <a href="#id1"><span class="problematic" id="id2">`</span></a>markdown`come documento principale.</p>
-<a class="reference internal image-reference" href="_images/logo.png"><img alt="the nexo logo" class="align-center" src="_images/logo.png" style="width: 200px;" /></a>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="content/uno.html">Uno</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/due.html">Due</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#header">Header</a></li>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#header-2-la-tipografia">Header 2 la tipografia</a></li>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#liste">Liste</a></li>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#pandoc">Pandoc</a></li>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#tabelle">Tabelle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#citazione">Citazione</a></li>
-<li class="toctree-l2"><a class="reference internal" href="content/due.html#todo">TODO</a></li>
-</ul>
-</li>
-</ul>
+<p>Soprattutto non capisco se posso utilizzare un documento <code class="docutils literal notranslate"><span class="pre">markdown</span></code> come documento principale.</p>
+<p>Bene, ora sto utilizzando un file con estensione `md.. Vediamo cosa succede.</p>
+<p>.. image:: _static/logo.png
+:width: 200px
+:align: center
+:alt: the nexo logo</p>
+<p>.. toctree::
+:maxdepth: 2
+:caption: Contents:</p>
+<p>content/uno
+content/due</p>
+<p>..
+Indices and tables
+==================</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>* :ref:`search`
+</pre></div>
 </div>
 </div>
 
@@ -129,7 +125,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="_sources/index.txt"
+      <a href="_sources/index.md.txt"
           rel="nofollow">Page source</a>
     </div>
 
