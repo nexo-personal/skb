@@ -93,7 +93,7 @@
     <div class="bd-toc-item active">
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Contents:
+  Table of contents:
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -120,6 +120,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../software/iot.html">
    nexo’s Industry 4.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../prova/Flash%20emmc%20nX3e.html">
+   Flash emmc nX3e
   </a>
  </li>
 </ul>
@@ -465,9 +470,10 @@ through and see how things look!</p>
 <p>This is some markdown that should be shown at full width.</p>
 <p>Here’s the Jupyter logo:</p>
 <p><img alt="" src="https://raw.githubusercontent.com/adebar/awesome-jupyter/master/logo.png" /></p>
-<p>:::{note}
-Here’s a full-width admonition!
-:::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Here’s a full-width admonition!</p>
+</div>
 </div>
 </section>
 <section id="mathematics">
@@ -615,10 +621,10 @@ Also to make sure you can still interact with the popout content.</p>
 <p><span class="caption-text">And here is my figure caption, if you look to the left, you can see that COOL is in big red letters. But you probably already noticed that, really I am just taking up space to see how the margin caption looks like when it is really long :-).</span><a class="headerlink" href="#reference-margin-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>:::{note}
-:class: margin
-This note should not overlap with the margin caption!
-:::</p>
+<div class="margin admonition note">
+<p class="admonition-title">Note</p>
+<p>This note should not overlap with the margin caption!</p>
+</div>
 <p>Entire figures in the margin:</p>
 <figure class="margin align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/nxmp.png"><img alt="My figure text" src="../../_images/nxmp.png" style="width: 60%;" /></a>
@@ -631,10 +637,14 @@ This note should not overlap with the margin caption!
 <section id="nested-admonitions">
 <h2>Nested admonitions<a class="headerlink" href="#nested-admonitions" title="Permalink to this headline">#</a></h2>
 <p>These aren’t theme-specific, but we still show below to make sure they work.</p>
-<p>::::{note} Here’s a note!
-:::{tip} And a tip!
-:::
-::::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Here’s a note!</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>And a tip!</p>
+</div>
+</div>
 </section>
 <section id="myst-markdown-elements">
 <h2>MyST Markdown elements<a class="headerlink" href="#myst-markdown-elements" title="Permalink to this headline">#</a></h2>

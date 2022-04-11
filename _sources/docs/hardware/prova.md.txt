@@ -12,7 +12,7 @@ This page is under active development.
 Here's my margin content
 ```
 
-:::{note}
+:::{warning} This is a warning box
 This text is **standard** _Markdown_
 :::
    
@@ -39,10 +39,10 @@ name: nxpm
 
 
 
-```{note}
+:::{note}
 :class: tag_fullwidth
-This is my test
-```
+This is my test for a fullwidth note
+:::
 
 Here's a toggleable note:
 
@@ -79,7 +79,7 @@ right TOC should hide itself automatically.
 Questa è un'immagine con caption di descrizione a lato.
 
 
-```{figure} img/nxmp.png
+:::{figure} img/nxmp.png
 ---
 width: 70%
 figclass: margin-caption
@@ -87,6 +87,6 @@ alt: My figure text
 name: myfig5
 ---
 And here is my figure caption, if you look to the left, you can see that COOL is in big red letters. But you probably already noticed that, really I am just taking up space to see how the margin caption looks like when it is really long :-)
-```
+:::
 
 

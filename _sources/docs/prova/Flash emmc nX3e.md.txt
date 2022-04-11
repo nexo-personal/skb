@@ -1,27 +1,42 @@
 # Flash emmc nX3e
 Di seguito la procedura per aggiornare l'nX3 e risolvere il problema HID:
 
-- Scaricare la seguente immagine: https://drive.google.com/drive/folders/14a6cldZiqCeJR2nSew8NTIr7EkrYb9Zm?usp=sharing;
+- Scaricare la seguente [immagine](https://drive.google.com/drive/folders/14a6cldZiqCeJR2nSew8NTIr7EkrYb9Zm?usp=sharing;)
 
-- Creare una micro SD card da almeno 8GB con l'immagine scaricata utilizzando per esempio Balena eatcher(https://www.balena.io/etcher/);
+- Creare una micro SD card da almeno 8GB con l'immagine scaricata utilizzando per esempio [Balena etcher](https://www.balena.io/etcher/)
 
 - Estrarre la carrier board dell'nX3 dal case plastico:
 
-- Premere su entrambi i lati per sganciare la carrier board:
 
-![](img/Immagine_2.jpeg)
-       
+```{figure} img/Immagine_2.jpeg
+---
+width: 100%
+figclass: margin-caption
+alt: My figure text
+name: carrier1
+---
+Premere su entrambi i lati per sganciare la carrier board
+```
 
-    - Estrarre la carrier board tirando:
+```{figure} img/Immagine.jpeg
+---
+width: 100%
+figclass: margin-caption
+alt: My figure text
+name: carrier2
+---
+Estrarre la carrier board tirando nella direzione della freccia
+```
 
-
-![](img/Immagine.jpeg)
-
-
-- Chiudere con un jumper JM1 ed inserire la microSD card nello slot frontale a destra della porta Can:
-
-
-![](img/Immagine_3.jpeg)
+```{figure} img/Immagine_3.jpeg
+---
+width: 100%
+figclass: margin-caption
+alt: My figure text
+name: jumper
+---
+Inserire il jimper JM1
+```
 
 
 - Accendere nX3 e collegarsi con l'emulatore terminale (Putty) via ethernet alla porta ETH0 all'indirizzo 192.168.2.67;
@@ -31,8 +46,8 @@ Di seguito la procedura per aggiornare l'nX3 e risolvere il problema HID:
 - Digitare i seguenti comandi:
 
 ```
-    cd(spazio) - (Premere Invio)
-    emmc_fs_ker_dtb.sh /dev/mmcblk2 . icore-mx6q-nx3.dtb -p (Premere Invio);
+cd(spazio) - (Premere Invio)
+emmc_fs_ker_dtb.sh /dev/mmcblk2 . icore-mx6q-nx3.dtb -p (Premere Invio);
 ```
 
 - Attendere il completamento della procedura che dovrebbe durare circa 3/4 minuti;

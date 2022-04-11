@@ -19,13 +19,14 @@ Questa è la home page della documentazione dei prodotti nexo
 
 .. toctree::
   :maxdepth: 2
-  :caption: Contents:
+  :caption: Table of contents:
   :titlesonly:
   :glob:
 
   docs/hardware/*
   docs/software/*
   docs/prova/*
+  docs/nX3E/*
 
 
 ..	Indices and tables

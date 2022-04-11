@@ -91,7 +91,7 @@
     <div class="bd-toc-item active">
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Contents:
+  Table of contents:
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -263,27 +263,35 @@ title="Print to PDF"
 <h1>Flash emmc nX3e<a class="headerlink" href="#flash-emmc-nx3e" title="Permalink to this headline">#</a></h1>
 <p>Di seguito la procedura per aggiornare l’nX3 e risolvere il problema HID:</p>
 <ul class="simple">
-<li><p>Scaricare la seguente immagine: https://drive.google.com/drive/folders/14a6cldZiqCeJR2nSew8NTIr7EkrYb9Zm?usp=sharing;</p></li>
-<li><p>Creare una micro SD card da almeno 8GB con l’immagine scaricata utilizzando per esempio Balena eatcher(https://www.balena.io/etcher/);</p></li>
+<li><p>Scaricare la seguente <a class="reference external" href="https://drive.google.com/drive/folders/14a6cldZiqCeJR2nSew8NTIr7EkrYb9Zm?usp=sharing;">immagine</a></p></li>
+<li><p>Creare una micro SD card da almeno 8GB con l’immagine scaricata utilizzando per esempio <a class="reference external" href="https://www.balena.io/etcher/">Balena etcher</a></p></li>
 <li><p>Estrarre la carrier board dell’nX3 dal case plastico:</p></li>
-<li><p>Premere su entrambi i lati per sganciare la carrier board:</p></li>
 </ul>
-<p><img alt="" src="../../_images/Immagine_2.jpeg" /></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Estrarre la carrier board tirando:
-</pre></div>
-</div>
-<p><img alt="" src="../../_images/Immagine.jpeg" /></p>
-<ul class="simple">
-<li><p>Chiudere con un jumper JM1 ed inserire la microSD card nello slot frontale a destra della porta Can:</p></li>
-</ul>
-<p><img alt="" src="../../_images/Immagine_3.jpeg" /></p>
+<figure class="margin-caption align-default" id="carrier1">
+<a class="reference internal image-reference" href="../../_images/Immagine_2.jpeg"><img alt="My figure text" src="../../_images/Immagine_2.jpeg" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Premere su entrambi i lati per sganciare la carrier board</span><a class="headerlink" href="#carrier1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="margin-caption align-default" id="carrier2">
+<a class="reference internal image-reference" href="../../_images/Immagine.jpeg"><img alt="My figure text" src="../../_images/Immagine.jpeg" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Estrarre la carrier board tirando nella direzione della freccia</span><a class="headerlink" href="#carrier2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="margin-caption align-default" id="jumper">
+<a class="reference internal image-reference" href="../../_images/Immagine_3.jpeg"><img alt="My figure text" src="../../_images/Immagine_3.jpeg" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Inserire il jimper JM1</span><a class="headerlink" href="#jumper" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <ul class="simple">
 <li><p>Accendere nX3 e collegarsi con l’emulatore terminale (Putty) via ethernet alla porta ETH0 all’indirizzo 192.168.2.67;</p></li>
 <li><p>Login come root e password: nessuna password;</p></li>
 <li><p>Digitare i seguenti comandi:</p></li>
 </ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="n">cd</span><span class="p">(</span><span class="n">spazio</span><span class="p">)</span> <span class="o">-</span> <span class="p">(</span><span class="n">Premere</span> <span class="n">Invio</span><span class="p">)</span>
-    <span class="n">emmc_fs_ker_dtb</span><span class="o">.</span><span class="n">sh</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mmcblk2</span> <span class="o">.</span> <span class="n">icore</span><span class="o">-</span><span class="n">mx6q</span><span class="o">-</span><span class="n">nx3</span><span class="o">.</span><span class="n">dtb</span> <span class="o">-</span><span class="n">p</span> <span class="p">(</span><span class="n">Premere</span> <span class="n">Invio</span><span class="p">);</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span><span class="p">(</span><span class="n">spazio</span><span class="p">)</span> <span class="o">-</span> <span class="p">(</span><span class="n">Premere</span> <span class="n">Invio</span><span class="p">)</span>
+<span class="n">emmc_fs_ker_dtb</span><span class="o">.</span><span class="n">sh</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mmcblk2</span> <span class="o">.</span> <span class="n">icore</span><span class="o">-</span><span class="n">mx6q</span><span class="o">-</span><span class="n">nx3</span><span class="o">.</span><span class="n">dtb</span> <span class="o">-</span><span class="n">p</span> <span class="p">(</span><span class="n">Premere</span> <span class="n">Invio</span><span class="p">);</span>
 </pre></div>
 </div>
 <ul class="simple">
