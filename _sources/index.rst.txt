@@ -25,6 +25,7 @@ Questa è la home page della documentazione dei prodotti nexo
 
   docs/hardware/*
   docs/software/*
+  docs/prova/*
 
 
 ..	Indices and tables
