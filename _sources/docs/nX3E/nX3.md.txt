@@ -2,23 +2,41 @@
 
 nX3 è un controllore avanzato per automazione industriale programmabile con CODESYS. È stato pensato per soddisfare una vasta gamma di esigenze applicative, può essere utilizzato come semplice controllore logico o come motion controller avanzato grazie alla completa integrazione delle librerie di SoftMotion, CNC e robotica di CODESYS. È governato da un sistema operativo realtime che consente di impostare il tempo di switching delle task di CODESYS sotto al millisecondo (tipicamente fino a 250microsecondi.) con un jitter normalmente contenuto entro i 20 microsecondi.
 
+:::{figure} img/173236573-nexo_nx3a.jpg
+---
+width: 60%
+figclass: margin-caption
+alt: nX3
+name: nX3a
+---
+:::
+
+
 Questo manuale descrive l'hardware e le funzionalità software specifiche del controllore neXo nX3.
 
+:::{seealso}
 Per qualsiasi indicazione riguardo la programmazione CODESYS è possibile consultare l'[help online di CODESYS](https://help.codesys.com/).
+:::
 
-![173236573-nexo_nx3a.jpg](img/173236573-nexo_nx3a.jpg)
-
-# Indice
 
 
 ## Hardware
 
 ### Collegamenti
 
-![img/image2.png](img/image2.png)
+
+:::{figure} img/image2.png
+---
+width: 100%
+figclass: margin
+alt: collegamenti
+name: collegamenti
+---
+:::
+
 
 | Simbolo | Funzione |
-| --- | --- |
+| :---: | ---: |
 | + | power supply +24VDC |
 | - | power supply 0VDC |
 | PE | power supply ground connection |
@@ -35,7 +53,15 @@ Per qualsiasi indicazione riguardo la programmazione CODESYS è possibile consul
 
 Il led frontale multicolore è posizionato a destra della microSD card e assume un colore diverso a seconda degli stati del controllore. Nella tabella di seguito i possibili stati del controllore e relativa segnalazione.
 
-![img/image3.png](img/image3.png)
+:::{figure} img/image3.png
+---
+width: 100%
+figclass: margin
+alt: led
+name: led
+---
+:::
+
 
 | Significato | Colore Led |
 | --- | --- |

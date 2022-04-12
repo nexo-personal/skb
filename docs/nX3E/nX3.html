@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
@@ -262,91 +263,79 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   nX3 instruction manual
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hardware">
+   Hardware
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#indice">
-   Indice
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#hardware">
-     Hardware
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#collegamenti">
+     Collegamenti
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#collegamenti">
-       Collegamenti
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#led-frontale">
-       Led frontale
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#memoria-ritentiva">
-       Memoria ritentiva
-      </a>
-     </li>
-    </ul>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#software">
-     Software
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#led-frontale">
+     Led frontale
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#parametri-nx3">
-       Parametri nX3
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#busspeed">
-       BusSpeed
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#watchdog">
-       Watchdog
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#linee-ethernet">
-       Linee Ethernet
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#funzione-setethipaddressex">
-       Funzione SetEthIPAddressEx
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#moduli-i-o">
-       Moduli I/O
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#dispositivi-di-memoria-rimovibili">
-       Dispositivi di memoria rimovibili.
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#codesys-usb-dongle-key">
-       Codesys USB Dongle Key
-      </a>
-     </li>
-    </ul>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#risorse-esterne">
-     Risorse Esterne
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#memoria-ritentiva">
+     Memoria ritentiva
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#software">
+   Software
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#parametri-nx3">
+     Parametri nX3
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#busspeed">
+     BusSpeed
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#watchdog">
+     Watchdog
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#linee-ethernet">
+     Linee Ethernet
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#funzione-setethipaddressex">
+     Funzione SetEthIPAddressEx
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#moduli-i-o">
+     Moduli I/O
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dispositivi-di-memoria-rimovibili">
+     Dispositivi di memoria rimovibili.
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#codesys-usb-dongle-key">
+     Codesys USB Dongle Key
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#risorse-esterne">
+   Risorse Esterne
+  </a>
  </li>
 </ul>
 
@@ -367,91 +356,79 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   nX3 instruction manual
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hardware">
+   Hardware
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#indice">
-   Indice
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#hardware">
-     Hardware
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#collegamenti">
+     Collegamenti
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#collegamenti">
-       Collegamenti
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#led-frontale">
-       Led frontale
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#memoria-ritentiva">
-       Memoria ritentiva
-      </a>
-     </li>
-    </ul>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#software">
-     Software
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#led-frontale">
+     Led frontale
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#parametri-nx3">
-       Parametri nX3
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#busspeed">
-       BusSpeed
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#watchdog">
-       Watchdog
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#linee-ethernet">
-       Linee Ethernet
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#funzione-setethipaddressex">
-       Funzione SetEthIPAddressEx
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#moduli-i-o">
-       Moduli I/O
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#dispositivi-di-memoria-rimovibili">
-       Dispositivi di memoria rimovibili.
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#codesys-usb-dongle-key">
-       Codesys USB Dongle Key
-      </a>
-     </li>
-    </ul>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#risorse-esterne">
-     Risorse Esterne
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#memoria-ritentiva">
+     Memoria ritentiva
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#software">
+   Software
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#parametri-nx3">
+     Parametri nX3
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#busspeed">
+     BusSpeed
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#watchdog">
+     Watchdog
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#linee-ethernet">
+     Linee Ethernet
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#funzione-setethipaddressex">
+     Funzione SetEthIPAddressEx
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#moduli-i-o">
+     Moduli I/O
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dispositivi-di-memoria-rimovibili">
+     Dispositivi di memoria rimovibili.
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#codesys-usb-dongle-key">
+     Codesys USB Dongle Key
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#risorse-esterne">
+   Risorse Esterne
+  </a>
  </li>
 </ul>
 
@@ -466,56 +443,60 @@ title="Print to PDF"
   <section id="nx3-instruction-manual">
 <h1>nX3 instruction manual<a class="headerlink" href="#nx3-instruction-manual" title="Permalink to this headline">#</a></h1>
 <p>nX3 è un controllore avanzato per automazione industriale programmabile con CODESYS. È stato pensato per soddisfare una vasta gamma di esigenze applicative, può essere utilizzato come semplice controllore logico o come motion controller avanzato grazie alla completa integrazione delle librerie di SoftMotion, CNC e robotica di CODESYS. È governato da un sistema operativo realtime che consente di impostare il tempo di switching delle task di CODESYS sotto al millisecondo (tipicamente fino a 250microsecondi.) con un jitter normalmente contenuto entro i 20 microsecondi.</p>
+<figure class="margin-caption align-default" id="nx3a">
+<a class="reference internal image-reference" href="../../_images/173236573-nexo_nx3a.jpg"><img alt="nX3" src="../../_images/173236573-nexo_nx3a.jpg" style="width: 60%;" /></a>
+</figure>
 <p>Questo manuale descrive l’hardware e le funzionalità software specifiche del controllore neXo nX3.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
 <p>Per qualsiasi indicazione riguardo la programmazione CODESYS è possibile consultare l’<a class="reference external" href="https://help.codesys.com/">help online di CODESYS</a>.</p>
-<p><img alt="173236573-nexo_nx3a.jpg" src="../../_images/173236573-nexo_nx3a.jpg" /></p>
-</section>
-<section id="indice">
-<h1>Indice<a class="headerlink" href="#indice" title="Permalink to this headline">#</a></h1>
+</div>
 <section id="hardware">
 <h2>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">#</a></h2>
 <section id="collegamenti">
 <h3>Collegamenti<a class="headerlink" href="#collegamenti" title="Permalink to this headline">#</a></h3>
-<p><img alt="img/image2.png" src="../../_images/image2.png" /></p>
+<figure class="margin align-default" id="id1">
+<a class="reference internal image-reference" href="../../_images/image2.png"><img alt="collegamenti" src="../../_images/image2.png" style="width: 100%;" /></a>
+</figure>
 <table class="colwidths-auto table">
 <thead>
-<tr class="row-odd"><th class="head"><p>Simbolo</p></th>
-<th class="head"><p>Funzione</p></th>
+<tr class="row-odd"><th class="text-center head"><p>Simbolo</p></th>
+<th class="text-right head"><p>Funzione</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>+</p></td>
-<td><p>power supply +24VDC</p></td>
+<tr class="row-even"><td class="text-center"><p>+</p></td>
+<td class="text-right"><p>power supply +24VDC</p></td>
 </tr>
-<tr class="row-odd"><td><p>-</p></td>
-<td><p>power supply 0VDC</p></td>
+<tr class="row-odd"><td class="text-center"><p>-</p></td>
+<td class="text-right"><p>power supply 0VDC</p></td>
 </tr>
-<tr class="row-even"><td><p>PE</p></td>
-<td><p>power supply ground connection</p></td>
+<tr class="row-even"><td class="text-center"><p>PE</p></td>
+<td class="text-right"><p>power supply ground connection</p></td>
 </tr>
-<tr class="row-odd"><td><p>↓ ↓</p></td>
-<td><p>watchdog relè output</p></td>
+<tr class="row-odd"><td class="text-center"><p>↓ ↓</p></td>
+<td class="text-right"><p>watchdog relè output</p></td>
 </tr>
-<tr class="row-even"><td><p>ETH0</p></td>
-<td><p>ethernet for realtime</p></td>
+<tr class="row-even"><td class="text-center"><p>ETH0</p></td>
+<td class="text-right"><p>ethernet for realtime</p></td>
 </tr>
-<tr class="row-odd"><td><p>ETH1</p></td>
-<td><p>ethernet</p></td>
+<tr class="row-odd"><td class="text-center"><p>ETH1</p></td>
+<td class="text-right"><p>ethernet</p></td>
 </tr>
-<tr class="row-even"><td><p>CAN H</p></td>
-<td><p>CAN High (in CODESYS CAN1)</p></td>
+<tr class="row-even"><td class="text-center"><p>CAN H</p></td>
+<td class="text-right"><p>CAN High (in CODESYS CAN1)</p></td>
 </tr>
-<tr class="row-odd"><td><p>CAN L</p></td>
-<td><p>CAN low (in CODESYS CAN1)</p></td>
+<tr class="row-odd"><td class="text-center"><p>CAN L</p></td>
+<td class="text-right"><p>CAN low (in CODESYS CAN1)</p></td>
 </tr>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>CAN High (in CODESYS CAN0)</p></td>
+<tr class="row-even"><td class="text-center"><p>1</p></td>
+<td class="text-right"><p>CAN High (in CODESYS CAN0)</p></td>
 </tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>CAN Low (in CODESYS CAN0)</p></td>
+<tr class="row-odd"><td class="text-center"><p>2</p></td>
+<td class="text-right"><p>CAN Low (in CODESYS CAN0)</p></td>
 </tr>
-<tr class="row-even"><td><p>°</p></td>
-<td><p>jumper for CAN termination resistor</p></td>
+<tr class="row-even"><td class="text-center"><p>°</p></td>
+<td class="text-right"><p>jumper for CAN termination resistor</p></td>
 </tr>
 </tbody>
 </table>
@@ -523,7 +504,9 @@ title="Print to PDF"
 <section id="led-frontale">
 <h3>Led frontale<a class="headerlink" href="#led-frontale" title="Permalink to this headline">#</a></h3>
 <p>Il led frontale multicolore è posizionato a destra della microSD card e assume un colore diverso a seconda degli stati del controllore. Nella tabella di seguito i possibili stati del controllore e relativa segnalazione.</p>
-<p><img alt="img/image3.png" src="../../_images/image3.png" /></p>
+<figure class="margin align-default" id="led">
+<a class="reference internal image-reference" href="../../_images/image3.png"><img alt="led" src="../../_images/image3.png" style="width: 100%;" /></a>
+</figure>
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Significato</p></th>

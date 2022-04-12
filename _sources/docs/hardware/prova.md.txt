@@ -20,7 +20,7 @@ This text is **standard** _Markdown_
 ## Header 2	
 
 
-```{note}
+```{important}
 :class: full-width
 This content will be full-width
 ```
@@ -60,14 +60,17 @@ My toggable note
 This is a toggled content
 ```
 
-````{margin} **Notes in margins**
+::::{margin} **Notes in margins**
 Quindi se scrivo posso anche aggiungere del testo per la nota a margine e poi sotto metetre u box di warning, per esempio.
-```{warning}
+:::{warning}
 Wow, a warning with an image in a margin!
-```
-````
+:::
+Questo testo dovrebbe essere posizionato dopo la info box.
+::::
 
-
+:::{seealso}
+See the [paragraph markup page](test.md) for more references styling.
+:::
 
 ```{tip}
 Sidebar content will generally overlap with the white space where your site's
@@ -75,13 +78,66 @@ table of contents lives. When the reader scrolls sidebar content into view, the
 right TOC should hide itself automatically.
 ```
 
+:::{note}
+:class: margin
+This toggle is in the margin!
+:::
+
+
+:::{seealso}
+:class: margin
+This toggle is in the margin!
+:::
+
+
+:::{tip}
+:class: margin
+This toggle is in the margin!
+:::
+
+
+
+
+
+## `sphinx-tabs` - Tabbed content
+
+% For some reason sphinx-tabs doesn't work properly with myst markdown
+% so using rST here.
+::::{eval-rst}
+.. tabs::
+
+   .. tab:: Apples
+
+      Apples are green, or sometimes red. Le mele sono verdi, talvolta rosse.
+
+   .. tab:: Pears
+
+      Pears are green. le pere sono verdi, non solo direi.
+
+   .. tab:: Oranges
+
+      Oranges are orange. La arance sono arancio.
+::::
+
+
+### List table
+:::{list-table}
+:width: 40%
+* - a
+  - b
+  - b2
+* - c
+  - d
+  - d2
+:::
+
 
 Questa è un'immagine con caption di descrizione a lato.
 
 
 :::{figure} img/nxmp.png
 ---
-width: 70%
+width: 100%
 figclass: margin-caption
 alt: My figure text
 name: myfig5
