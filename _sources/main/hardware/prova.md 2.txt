@@ -1,9 +1,0 @@
-nXpico
-================================
-Questa è la documentazione della scheda **nXpico**
-
-
-==This page is under active development.==
-   
-
-## Header 2	

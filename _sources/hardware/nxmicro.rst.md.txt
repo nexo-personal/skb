@@ -1,3 +1,0 @@
-# nXmicro documentation
-
-Questa è la pagina della documentazione della scheda *nXmicro*.
