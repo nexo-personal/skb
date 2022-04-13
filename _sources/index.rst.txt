@@ -23,6 +23,7 @@ Questa è la home page della knowledge base dei prodotti nexo
   :glob:
 
   hardware/nX3E/*
+  hardware/nXmicro/*
   software/*
 
 
