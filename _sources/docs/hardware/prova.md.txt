@@ -1,0 +1,148 @@
+nXpico
+================================
+Questa è la documentazione della scheda **nXpico**
+
+```{versionadded} 0.1.1
+```
+
+This page is under active development.
+
+
+```{margin} My margin
+Here's my margin content
+```
+
+:::{warning} This is a warning box
+This text is **standard** _Markdown_
+:::
+   
+
+## Header 2	
+
+
+```{important}
+:class: full-width
+This content will be full-width
+```
+
+```{warning}
+This will create a new Deepnote project every time you click the launch button.
+```
+
+```{figure} img/nxmp.png
+---
+width: 100%
+alt: My figure text
+name: nxpm
+---
+```
+
+
+
+:::{note}
+:class: tag_fullwidth
+This is my test for a fullwidth note
+:::
+
+Here's a toggleable note:
+
+it doesn't work so we use the `{important}` directive instead.
+
+Invece adesso funziona, bastava installare l'estensione per Sphinx...
+
+```{important}
+:class: toggle
+My toggable note
+```
+
+```{toggle}
+
+This is a toggled content
+```
+
+::::{margin} **Notes in margins**
+Quindi se scrivo posso anche aggiungere del testo per la nota a margine e poi sotto metetre u box di warning, per esempio.
+:::{warning}
+Wow, a warning with an image in a margin!
+:::
+Questo testo dovrebbe essere posizionato dopo la info box.
+::::
+
+:::{seealso}
+See the [paragraph markup page](test.md) for more references styling.
+:::
+
+```{tip}
+Sidebar content will generally overlap with the white space where your site's
+table of contents lives. When the reader scrolls sidebar content into view, the
+right TOC should hide itself automatically.
+```
+
+:::{note}
+:class: margin
+This toggle is in the margin!
+:::
+
+
+:::{seealso}
+:class: margin
+This toggle is in the margin!
+:::
+
+
+:::{tip}
+:class: margin
+This toggle is in the margin!
+:::
+
+
+
+
+
+## `sphinx-tabs` - Tabbed content
+
+% For some reason sphinx-tabs doesn't work properly with myst markdown
+% so using rST here.
+::::{eval-rst}
+.. tabs::
+
+   .. tab:: Apples
+
+      Apples are green, or sometimes red. Le mele sono verdi, talvolta rosse.
+
+   .. tab:: Pears
+
+      Pears are green. le pere sono verdi, non solo direi.
+
+   .. tab:: Oranges
+
+      Oranges are orange. La arance sono arancio.
+::::
+
+
+### List table
+:::{list-table}
+:width: 40%
+* - a
+  - b
+  - b2
+* - c
+  - d
+  - d2
+:::
+
+
+Questa è un'immagine con caption di descrizione a lato.
+
+
+:::{figure} img/nxmp.png
+---
+width: 100%
+figclass: margin-caption
+alt: My figure text
+name: myfig5
+---
+And here is my figure caption, if you look to the left, you can see that COOL is in big red letters. But you probably already noticed that, really I am just taking up space to see how the margin caption looks like when it is really long :-)
+:::
+
+
