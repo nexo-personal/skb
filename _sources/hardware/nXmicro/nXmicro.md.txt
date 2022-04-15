@@ -1,8 +1,7 @@
-# nXmicro+
+# nXmicro+ instruction manual
 
-## Table of contents
 
-# General
+## General
 
 ![48037889.jpg](img/48037889.jpg)
 

@@ -1,2 +1,74 @@
 # nexo's Industry 4.0
 
+Questa dovrebbe essere una griglia fatta di item cards. Sto cercando di capire quanto abbia senso creare complessità, credo valga la pena tenere tutto semplice.
+
+::::{grid} 2
+:::{grid-item-card}  Title 1
+![logo](logo_small.png)
+:::
+:::{grid-item-card}  Title 2
+| Significato | Colore Led |
+| --- | --- |
+| OS in fase di boot | bianco |
+| applicazione CODESYS in run | verde |
+| tensione sotto i 19 volt | spento |
+| applicazione CODESYS in stop o assente | arancio |
+| applicazione CODESYS in exception | rosso |
+:::
+::::
+
+
+Questa è invece una griglia semplice
+
+::::{grid}
+:reverse:
+:gutter: 2 1 1 1
+:margin: 4 4 1 1
+
+:::{grid-item}
+:columns: 4
+:class: sd-text-center sd-animate-slide-from-left
+```{image} logo_small.png
+:width: 100%
+```
+:::
+
+:::{grid-item}
+:columns: 8
+:class: sd-fs-3
+
+A Sphinx theme with a clean design, support for interactive content, and a modern book-like look and feel.
+:::
+
+::::
+
+
+Questa è invece una griglia semplice
+
+::::{grid}
+:reverse:
+:gutter: 2 1 1 1
+:margin: 4 4 1 1
+
+:::{grid-item}
+:columns: 4
+:class: sd-text-center sd-animate-slide-from-left
+```{image} logo_small.png
+:width: 80%
+```
+:::
+
+:::{grid-item}
+:columns: 8
+:class: sd-fs-6
+
+| Significato | Colore Led |
+| --- | --- |
+| OS in fase di boot | bianco |
+| applicazione CODESYS in run | verde |
+| tensione sotto i 19 volt | spento |
+| applicazione CODESYS in stop o assente | arancio |
+| applicazione CODESYS in exception | rosso |
+:::
+
+::::
